@@ -23,23 +23,19 @@ class Vehicle:
         pass
 
 class GroundVehicle(Vehicle):
-        super().__init__()
         pass
 
 class Car(GroundVehicle):
-        super().__init__()
         pass
     
 class Motorcycle(GroundVehicle):
-        super().__init__()
         pass
 #Base
-class FlightVehicle:
+class FlightVehicle(Vehicle):
         pass
 
 class Airplane(FlightVehicle):
-        super().__init__()
         pass
 #Base
-class Starship:
+class Starship(FlightVehicle):
         pass
